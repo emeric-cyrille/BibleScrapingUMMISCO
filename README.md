@@ -1,1 +1,1 @@
-# BibleScrapingUMISCO
+# BibleScrapingUMMISCO

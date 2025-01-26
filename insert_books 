@@ -1,0 +1,77 @@
+-- Insertion des 65 livres de la bible avec leur code
+
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('GENESIS','GEN',2),
+	 ('EXODUS','EXO',2),
+	 ('LEVITICUS','LEV',2),
+	 ('NUMBERS','NUM',2),
+	 ('DEUTERONOMY','DEU',2),
+	 ('JOSHUA','JOS',2),
+	 ('JUDGES','JDG',2),
+	 ('RUTH','RUT',2),
+	 ('1 SAMUEL','1SA',2),
+	 ('2 SAMUEL','2SA',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('1 KINGS','1KI',2),
+	 ('2 KINGS','2KI',2),
+	 ('1 CHRONICLES','1CH',2),
+	 ('2 CHRONICLES','2CH',2),
+	 ('EZRA','EZR',2),
+	 ('NEHEMIAH','NEH',2),
+	 ('ESTHER','EST',2),
+	 ('JOB','JOB',2),
+	 ('PSALMS','PSA',2),
+	 ('PROVERBS','PRO',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('ECCLESIASTES','ECC',2),
+	 ('SONG','SNG',2),
+	 ('ISAIAH','ISA',2),
+	 ('JEREMIAH','JER',2),
+	 ('LAMENTATIONS','LAM',2),
+	 ('EZEKIEL','EZK',2),
+	 ('DANIEL','DAN',2),
+	 ('HOSEA','HOS',2),
+	 ('JOEL','JOL',2),
+	 ('AMOS','AMO',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('OBADIAH','OBA',2),
+	 ('JONAH','JON',2),
+	 ('MICAH','MIC',2),
+	 ('NAHUM','NAM',2),
+	 ('HABAKKUK','HAB',2),
+	 ('ZEPHANIAH','ZEP',2),
+	 ('HAGGAI','HAG',2),
+	 ('ZECHARIAH','ZEC',2),
+	 ('MALACHI','MAL',2),
+	 ('MATTHEW','MAT',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('MARK','MRK',2),
+	 ('LUKE','LUK',2),
+	 ('JOHN','JHN',2),
+	 ('ACTS','ACT',2),
+	 ('ROMANS','ROM',2),
+	 ('1 CORINTHIANS','1CO',2),
+	 ('2 CORINTHIANS','2CO',2),
+	 ('GALATIANS','GAL',2),
+	 ('EPHESIANS','EPH',2),
+	 ('PHILIPPIANS','PHP',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('COLOSSIANS','COL',2),
+	 ('1 THESSALONIANS','1TH',2),
+	 ('2 THESSALONIANS','2TH',2),
+	 ('1 TIMOTHY','1TI',2),
+	 ('2 TIMOTHY','2TI',2),
+	 ('TITUS','TIT',2),
+	 ('PHILEMON','PHM',2),
+	 ('HEBREWS','HEB',2),
+	 ('JAMES','JAS',2),
+	 ('1 PETER','1PE',2);
+INSERT INTO public.books ("name",abbreviation,language_id) VALUES
+	 ('2 PETER','2PE',2),
+	 ('1 JOHN','1JN',2),
+	 ('2 JOHN','2JN',2),
+	 ('3 JOHN','3JN',2),
+	 ('JUDE','JUD',2),
+	 ('REVELATION','REV',2);
+
+

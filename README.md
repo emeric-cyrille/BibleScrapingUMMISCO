@@ -1,8 +1,3 @@
-# BibleScrapingUMMISCO
-
-Merci pour les détails du projet ! Voici un brouillon de fichier `README.md` structuré et détaillé pour ton projet : 
-
----
 
 # BibleScrapingUMMISCO
 
@@ -126,8 +121,6 @@ python export_data.py
 ---
 
 ## Auteurs
-Projet développé par **Emeric Cyrille**.
+Projet développé par **Kenmegne Fokam Emeric Cyrille** sous la coordination de **Pr Paulin Melatagia** 
 
----
 
-Est-ce que cela correspond à tes attentes ? Si tu souhaites ajouter ou modifier quelque chose, dis-le-moi !

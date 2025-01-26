@@ -42,26 +42,18 @@ pip install -r requirements.txt
 
 ### Étape 1 : Créer la base de données
 1. Créez une base de données PostgreSQL.
-2. Utilisez le fichier `create_tables.py` pour créer les tables requises. Exécutez le fichier avec :
+2. Utilisez le fichier `create_tables.txt` pour créer les tables requises. Exécutez le contenu du fichier dans l'editeur sql de la db :
 
-```bash
-python create_tables.py
-```
+
 
 ### Étape 2 : Remplir les tables statiques
 - **Table `books`** :
-  Remplissez les livres de la Bible en exécutant le fichier :
+  Remplissez les livres de la Bible en exécutant le contenu du fichier `insert_books.txt`:
 
-  ```bash
-  python insert_books.py
-  ```
+ 
 
 - **Table `chapters`** :
-  Ajoutez les numéros de chapitres associés aux livres en exécutant :
-
-  ```bash
-  python insert_chapter_number.py
-  ```
+  Ajoutez les numéros de chapitres associés aux livres en exécutant le contenu du fichier `insert_books.txt` :
 
 ### Étape 3 : Générer les URL pour les chapitres
 1. Identifiez la langue que vous voulez scraper sur [Bible.com](https://www.bible.com) et ajoutez ses informations dans la table `languages` (notamment `code` et `code_lang`).
@@ -97,9 +89,9 @@ python export_data.py
 
 ## Détail des fichiers
 
-- **`create_tables.py`** : Script pour créer les tables dans la base PostgreSQL.
-- **`insert_books.py`** : Remplit la table `books` avec les informations des livres bibliques.
-- **`insert_chapter_number.py`** : Ajoute les chapitres pour chaque livre dans la table `chapters`.
+- **`create_tables.txt`** : Script pour créer les tables dans la base PostgreSQL.
+- **`insert_books.txt`** : Remplit la table `books` avec les informations des livres bibliques.
+- **`insert_chapter_number.txt`** : Ajoute les chapitres pour chaque livre dans la table `chapters`.
 - **`built_url_chapter.py`** : Génère les URLs des chapitres pour une langue spécifique.
 - **`spider2.py`** : Scrape les versets et les insère dans la table `verses`.
 - **`export_data.py`** : Exporte les données des versets dans plusieurs formats (CSV, TXT, XML).
